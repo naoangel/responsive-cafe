@@ -67,7 +67,8 @@ header {
 	height:15%;
 	width:20%;
 	background-color: #343A40;
-	border-radius:10%;
+	border-radius:4px;
+	border: none;
 }
 
 .btn a{
@@ -80,7 +81,8 @@ header {
 
 .boxes{
 	text-align: center;
-	height: 60%;
+	margin-top: 5%;
+	height: auto;
 }
 
 .txts{
@@ -91,6 +93,7 @@ header {
 	padding-left: 2em;*/
 }
 .box{
+	width: 90%;
 	border: 1px solid #C9C8C8;
 	text-align: center;
 
@@ -98,42 +101,53 @@ header {
 }
 
 .txts{
-	height:40%;
+	height:auto;
 	text-align: left;
+}
+
+.txts p{
+	padding-bottom: 4%;
 }
 
 .img1{
 	background-image: url(../img/aac522b4243c0458afb89e41d16eea96--coffee-drinks-coffee-cafe.jpg);
+	background-position: top;
 }
 
 .img2{
 	background-image: url(../img/bc142086f5f2e61f1e16bd95629170a8--studio-ghibli-coffee-break.jpg);
-
+	background-position: top;
 }
 
 .img3{
 	background-image: url(../img/Young-people-relaxing-in-a-coffee-shop.jpg);
+	background-position: center;
 }
 
+
 .img1, .img2, .img3{
-	height:15em;
-	width: 23em;
+	height:14em;
+	width: 21em;
 	margin-left: 1em;
+	
 }
 .btns{
-	height: 30%;
+	height: auto;
 	border-top: 1px solid #C9C8C8;
-	padding-top: 2%;
+	padding: 4%;
 	vertical-align: auto;
+	text-align: left;
+	
 }
 
 .btn2{
-	height:4%;
-	width:12%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	height:auto;
+	width:20%;
+	padding: 2%;
 	background-color: #343A40;
-	border-radius: 5%;
+	border-radius: 4px;
+	border:none;
+	margin-left: 5%;
 }
 
 .btn2 a{
@@ -150,7 +164,6 @@ footer{
 }
 
 footer h3{
-
 	text-align: center;
 	padding: 1em;
 	color: #D9D5D5;
