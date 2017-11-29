@@ -1,0 +1,20 @@
+@media (max-width: 767 ){
+  [class*="col-"] {
+    max-width:100%;
+    flex:none;
+  }
+
+.menuham{
+	display:none;
+
+}
+
+.fa-bars{
+	display: block;
+} 
+
+
+}
+
+
+

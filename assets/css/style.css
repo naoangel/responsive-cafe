@@ -25,7 +25,7 @@ header {
 	list-style-type: none;
 	text-decoration: none;
 	margin-left: 30%;
-	padding-top: 1em;
+	padding: 1em;
 }
 
 .topbuttoms li a {
@@ -45,13 +45,21 @@ header {
 	text-decoration: none;
 } 
 
+.menuham{
+	height:auto;
+	width: 100%;
+	color: ##D9D5D5;
+}
+
+
+
+
 .banner{
 	background-image: url("../img/cafebanner.jpg");
 	background-size: cover;
 	background-position: bottom;
-	height: 20em;
+	height: auto;
 }
-
 
 .txt{
 	padding:2em;
@@ -111,7 +119,7 @@ header {
 
 .img1{
 	background-image: url(../img/aac522b4243c0458afb89e41d16eea96--coffee-drinks-coffee-cafe.jpg);
-	background-position: top;
+	background-position: 0.5;
 }
 
 .img2{
@@ -156,6 +164,15 @@ header {
 	text-decoration: none;
 	color:#D9D5D5;
 }
+
+.btn2:hover{
+	background-color:#D9D5D5;
+	color:#343A40;
+	border: 1px solid #343A40;
+}
+
+
+
 
 footer{
 	height: 4em;
