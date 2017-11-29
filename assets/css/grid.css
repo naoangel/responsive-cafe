@@ -24,6 +24,14 @@
   padding-left: calc(var(--grid-gutter-width) / 2);
 }
 
+
+@media (max-width: 767){
+  [class*="col-"] {
+    max-width:100%;
+    flex:none;
+  }
+}
+
 @media (--breakpoint-sm-up) {
   .container {
     max-width: var(--container-max-width-sm);
